@@ -13,9 +13,9 @@ var Contact = require('../api/contact/contact.model');
 var thingSeed = require('../api/thing/thing.seed.json');
 
 // Insert seed inserts below
-Thing.find({}).remove(function () {
+/*Thing.find({}).remove(function () {
     Thing.create(thingSeed);
-});
+});*/
 
 
 /*User.find({}).remove(function () {

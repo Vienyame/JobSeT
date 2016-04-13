@@ -6,6 +6,10 @@ var Schema = mongoose.Schema;
 
 var InterviewSchema = new Schema({
     interviewDateTime : Date,
+    state: {
+        type: String,
+        default: 'en cours'
+    },
     level : {
         interviewLevel :String
     }

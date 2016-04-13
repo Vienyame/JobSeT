@@ -14,6 +14,7 @@ module.exports = function(app) {
   app.use('/api/contacts', require('./api/contact'));
   app.use('/api/enterprises', require('./api/enterprise'));
   app.use('/api/interviews', require('./api/interview'));
+  app.use('/api/opportunity', require('./api/opportunity'));
 
   app.use('/auth', require('./auth'));
   
